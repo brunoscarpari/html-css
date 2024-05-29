@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgba(128, 255, 0, 0.353);
+}
+h1 {
+    color: rgb(70, 140, 0);
+}
+h1#principal{
+    color: rgb(255, 255, 176);
+    background-color: chocolate;
+}
+h2{
+    color: darkgreen;
+}
