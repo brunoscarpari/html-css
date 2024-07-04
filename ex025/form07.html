@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <p>
+            <label for="estate">estado:</label>
+            <select name="estate" id="estate">
+                
+                <option value="none" selected>---escolha uma opção---</option>
+                <optgroup label="regiao sudeste">
+                <option value="MG">minas gerais</option>
+                <option value="RJ">rio de janeiro</option>
+                <option value="SP">sao paulo</option>
+                </optgroup>
+                <optgroup label="regiao nordeste">
+                <option value="MA">maranhao</option>
+                <option value="PE">pernambuco</option>
+                <option value="RN">rio grande do norte</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="prof">Profissao:</label>
+            <input type="text" name="prof" id="prof" list="listprof">
+            <datalist id="listprof">
+                <option value="professor">Professor</option>
+                <option value="administrador">Administrador</option>
+                <option value="desenvolvedor">Desenvolvedor</option>
+            </datalist>
+        </p>
+        <p>
+            <label for="textarea">Mensagem:</label>
+            <textarea name="textarea" id="textarea" cols="10" rows="10"></textarea>
+        </p>
+        <p>
+           <input type="submit" value="Enviar">
+           <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>

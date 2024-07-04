@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="formulario.php">
+        <p>
+            <label for="nasc">Ano nascimento:</label>
+            <input type="number" name="nasc" id="nasc" min="1900" max="2024" oninput="calcularidade()">
+        </p>
+        <p>
+            <label for="idade">sua idade é de:</label>
+            <output id="idade">0</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+        <script>
+            function calcularidade(){
+                let atual = new Date().getFullYear()
+                idade.innerHTML= Number(atual) - Number(nasc.value)
+            }
+        </script>
+    </form>
+</body>
+</html>
