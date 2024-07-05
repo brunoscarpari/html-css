@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: rgb(148, 148, 148);
+}
+h1{
+    text-align: center;
+}
+ul{
+    background-color: rgb(97, 97, 97);
+}
+li{
+    padding: 10px;
+    background-color: rgb(22, 22, 22);
+    color: white;
+    display: inline-block;
+}
+article{
+    display: block;
+    margin: auto;
+    width: 600px;
+}
