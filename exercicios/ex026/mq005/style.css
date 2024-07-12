@@ -15,8 +15,21 @@ header h1{
     text-align: center;
     padding: 10px;
 }
-menu{
+
+i#menuinit{
+    background-color: #4e4e4e;
+    color: white;
+    padding: 10px;
     display: block;
+    text-align: center;
+}
+i#menuinit:hover{
+    background-color: #cb48ff;
+    color: rgb(0, 0, 0);   
+    cursor: pointer;
+}
+menu{
+    display: none;
 }
 menu li{
     list-style-type: none;
@@ -31,13 +44,21 @@ menu a{
     padding: 10px;
 }
 menu a:hover{
-    background-color: rgb(203, 72, 255);
+    background-color: #cb48ff;
 }
 main{
     width: 90vw;
     background-color: white;
     margin: auto;
-    margin: 10px;
     padding: 10px;
-    border-radius: ;
+    border-radius:10px;
+    margin-top: 20px;
+}
+article h2{
+    padding-bottom: 20px;
+}
+article p{
+    text-align: center;
+    margin-bottom: 20px;
+    text-indent: 20px;
 }
